@@ -73,15 +73,15 @@ arm-cortex-m4-embedded-applications/
 │
 ├── lab1-hash-fibonacci/
 │ ├── src/
-│ └── report-lab1.pdf
+│ └── report1.pdf
 │
 ├── lab2-digit-led-interrupt/
 │ ├── src/
-│ └── report-lab2.pdf
+│ └── report2.pdf
 │
 ├── lab3-environment-monitor/
 │ ├── src/
-│ └── report-lab3.pdf
+│ └── report3.pdf
 │
 └── README.md
 ```
