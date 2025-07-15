@@ -85,3 +85,15 @@ arm-cortex-m4-embedded-applications/
 │
 └── README.md
 ```
+
+## ✍️ Author
+
+**Panagiotis Koutris**  
+📧 pkoutris@ece.auth.gr  
+🎓 Undergraduate Student, AUTh – School of Electrical & Computer Engineering
+
+---
+
+## 📝 License
+
+This project is provided for **academic and educational purposes** only.
