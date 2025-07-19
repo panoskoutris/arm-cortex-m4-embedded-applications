@@ -2,7 +2,7 @@
 
 Real-time embedded systems projects on the STM32F411RE Nucleo board (ARM Cortex-M4), developed using C and ARM Assembly. These applications demonstrate practical microcontroller programming, low-level peripheral control, and real-time responsiveness through UART, GPIO, timers, interrupts, and sensors such as DHT11.
 
-Developed as part of the course Microprocessors and Peripherals at the Aristotle University of Thessaloniki (AUTH), School of Electrical & Computer Engineering.
+Developed as part of the course **Microprocessors and Peripherals** at the Aristotle University of Thessaloniki (AUTH), School of Electrical & Computer Engineering.
 
 ---
 
@@ -107,4 +107,4 @@ arm-cortex-m4-embedded-applications/
 
 ## 📝 License
 
-This project is provided for **academic and educational purposes** only.
+Licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0.html).
