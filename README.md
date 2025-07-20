@@ -100,7 +100,6 @@ arm-cortex-m4-embedded-applications/
 ## ✍️ Author
 
 **Panagiotis Koutris**  
-📧 pkoutris@ece.auth.gr  
 🎓 Undergraduate Student, AUTh – School of Electrical & Computer Engineering
 
 ---
