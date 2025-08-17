@@ -6,11 +6,11 @@ Developed as part of the course **Microprocessors and Peripherals** at the Arist
 
 ---
 
-## 📦 Contents
+##  Contents
 
 This repository contains three standalone projects, each designed to highlight key embedded systems concepts:
 
-### 🔢 1. Hash & Fibonacci Calculator (Assembly-C Hybrid)
+###  1. Hash & Fibonacci Calculator (Assembly-C Hybrid)
 
 - Parses alphanumeric strings received via UART
 - Computes a hash based on character types:
@@ -21,11 +21,11 @@ This repository contains three standalone projects, each designed to highlight k
 - Calculates Fibonacci of final value in ARM Assembly
 - Final result is printed via UART
 
-📁 Folder: `lab1-hash-fibonacci/`
+ Folder: `lab1-hash-fibonacci/`
 
 ---
 
-### 💡 2. LED Control via Digit Analysis & Interrupts
+###  2. LED Control via Digit Analysis & Interrupts
 
 - User inputs integer via UART
 - Timer interrupt triggers digit-by-digit analysis every 0.5 sec
@@ -35,11 +35,11 @@ This repository contains three standalone projects, each designed to highlight k
 - New number input restarts the process
 - Input ending in `-` triggers continuous loop mode
 
-📁 Folder: `lab2-digit-led-interrupt/`
+ Folder: `lab2-digit-led-interrupt/`
 
 ---
 
-### 🌡️ 3. Environmental Monitoring System (DHT11 + Touch + Panic Reset)
+###  3. Environmental Monitoring System (DHT11 + Touch + Panic Reset)
 
 - UART menu to configure sampling frequency and display mode
 - Touch sensor toggles between Normal and Alert modes
@@ -51,11 +51,11 @@ This repository contains three standalone projects, each designed to highlight k
 - Software panic reset if:
   - Temp > 35°C or Hum > 80% for 3 consecutive reads
 
-📁 Folder: `lab3-environment-monitor/`
+ Folder: `lab3-environment-monitor/`
 
 ---
 
-## 🛠️ Development Environment
+##  Development Environment
 
 - **MCU**: STM32F411RE (ARM Cortex-M4 @ 100MHz)
 - **Board**: Nucleo-F411RE
@@ -66,7 +66,7 @@ This repository contains three standalone projects, each designed to highlight k
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 arm-cortex-m4-embedded-applications/
@@ -97,13 +97,13 @@ arm-cortex-m4-embedded-applications/
 └── README.md
 ```
 
-## ✍️ Author
+##  Author
 
 **Panagiotis Koutris**  
 🎓 Undergraduate Student, AUTh – School of Electrical & Computer Engineering
 
 ---
 
-## 📝 License
+##  License
 
 Licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0.html).
