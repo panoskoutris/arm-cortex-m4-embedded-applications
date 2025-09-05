@@ -14,12 +14,12 @@ fibo PROC
     ;; return fibo(n-1) + fibo(n-2)
     MOV r4, r0    ; r4 = r0 = n
     SUBS r0, #1   ; r0 = n-1
-    BL fibo
+    BL fibo       ; call fibo with r0 = n - 1
     MOV r5, r0    ; r5 = fibo(n-1)
 	
     MOV r0, r4    ; r0 = n
     SUBS r0, #2   ; r0 = n-2
-    BL fibo
+    BL fibo       ; call fibo with r0 = n - 2
     ADD r0, r0, r5  ; r0 = fibo(n-1) + fibo(n-2)
 
     B ending
@@ -42,3 +42,4 @@ ending
     ENDP
 
     END
+
