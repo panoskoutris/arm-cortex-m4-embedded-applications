@@ -16,7 +16,7 @@ addmod7 PROC
     BLT after_if              ; skip if hash <= 9
 
 hash_greater_zero
-    CMP r0, #0               ;hash = 0
+    CMP r0, #0               ; hash = 0
     BLE mod7_loop            ; end loop if hash <= 0
 
     ;; sum = sum + hash % 10
@@ -48,3 +48,4 @@ after_if
     ENDP
 
     END
+
