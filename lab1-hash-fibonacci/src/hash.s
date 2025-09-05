@@ -5,7 +5,7 @@
 hash PROC
     PUSH {r4-r7, lr}      ; Save used registers
 
-    MOVS r2, #0           ; r2 = i
+    MOVS r2, #0           ; r2 = first current (i) and after final (n) length of str 
     MOVS r3, #0           ; r3 = hash
 
 length_func               ; Calculate length of string
@@ -82,3 +82,4 @@ digits_table                ; The digit table provided
     DCD 5, 12, 7, 6, 4, 11, 6, 3, 10, 23
 
     END
+
