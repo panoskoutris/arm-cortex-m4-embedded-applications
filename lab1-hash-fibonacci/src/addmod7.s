@@ -21,7 +21,7 @@ hash_greater_zero
 
     ;; sum = sum + hash % 10
     UDIV r2, r0, r5           ; r2 = hash / 10
-    MLS  r3, r2, r5, r0       ; r3 = hash/10 - (r2 * 10) = hash % 10
+    MLS  r3, r2, r5, r0       ; r3 = hash - (r2 * 10) = hash % 10
     ADD  r1, r1, r3           ; sum += r3
     MOV  r0, r2               ; hash = hash / 10
     B hash_greater_zero
@@ -48,5 +48,6 @@ after_if
     ENDP
 
     END
+
 
 
